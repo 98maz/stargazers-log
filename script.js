@@ -1,3 +1,4 @@
+// Fetch the starred repository data from events.json
 fetch("events.json")
   .then((response) => response.json())
   .then((events) => {
